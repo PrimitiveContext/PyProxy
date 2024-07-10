@@ -3,7 +3,7 @@
 
 A Python `mitmproxy` wrapper to proxy and save HTTP request/response data.
 - **Browser Certificate:** Auto-generated and placed in the working directory.
-- **Request/Response:** Each pair stored together, labeled with size in KB.
+- **Request/Response:** Each pair stored together, labeled with size in KB. Content stored as base64.
 - **Switches:** Host. Port. (*:8080 default)
 
 ### Installation
