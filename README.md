@@ -15,7 +15,7 @@ pip install mitmproxy
 ### Usage
 
 ```bash
-mitmdump -s proxy_logger.py --listen-host <interface> --listen-port <port>
+mitmdump -s PyProxy.py --listen-host <interface> --listen-port <port>
 ```
 
 ### Output (example)
