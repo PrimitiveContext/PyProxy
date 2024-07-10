@@ -1,5 +1,5 @@
 # Install: pip install mitmproxy
-# Run: mitmdump -s proxy_logger.py --listen-host <interface> --listen-port <port>
+# Run: mitmdump -s PyProxy.py --listen-host <interface> --listen-port <port>
 
 import os
 import subprocess
