@@ -4,6 +4,7 @@
 A Python `mitmproxy` wrapper to proxy and save HTTP request/response data.
 - **Browser Certificate:** Auto-generated and placed in the working directory.
 - **Request/Response:** Each pair stored together, labeled with size in KB.
+- **Switches:** Host. Port. (*:8080 default)
 
 ### Installation
 
@@ -14,7 +15,7 @@ pip install mitmproxy
 ### Usage
 
 ```bash
-mitmdump -s PyProxy.py
+mitmdump -s proxy_logger.py --listen-host <interface> --listen-port <port>
 ```
 
 ### Output (example)
